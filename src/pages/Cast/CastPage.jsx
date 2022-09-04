@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchCast } from 'cervices/api';
+import { fetchCast } from 'cervices/api/api';
 
 import { StyledList } from './castPage.styled';
 

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { fetchMoviesForQuery } from 'cervices/api';
+import { fetchMoviesForQuery } from 'cervices/api/api';
 import { useSearchParams } from 'react-router-dom';
 import { InputQuery } from 'components/InputQuery/InputQuery';
 import { MoviesList } from 'components/MoviesList/MoviesList';

@@ -1,4 +1,4 @@
-import { fetchMostPopularMovies } from 'cervices/api';
+import { fetchMostPopularMovies } from 'cervices/api/api';
 import { useState, useEffect } from 'react';
 
 import { MoviesList } from 'components/MoviesList/MoviesList.jsx';

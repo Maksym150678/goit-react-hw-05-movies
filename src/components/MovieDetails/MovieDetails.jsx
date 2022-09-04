@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link, Outlet } from 'react-router-dom';
-import { fetchMovieForId } from 'cervices/api';
+import { fetchMovieForId } from 'cervices/api/api';
 
 import { StyledDiv } from './movieDetails.styled.js';
 

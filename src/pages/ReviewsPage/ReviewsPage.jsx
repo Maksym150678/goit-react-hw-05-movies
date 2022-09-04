@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchReviews } from 'cervices/api';
+import { fetchReviews } from 'cervices/api/api';
 
 const ReviewsPage = () => {
   const [reviews, setReviews] = useState(null);
