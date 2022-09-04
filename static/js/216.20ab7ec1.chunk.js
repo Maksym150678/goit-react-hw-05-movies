@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgoit_react_hw_05_movies=self.webpackChunkgoit_react_hw_05_movies||[]).push([[216],{7216:function(e,t,r){r.r(t),r.d(t,{default:function(){return n}});var i=r(184);function n(){return(0,i.jsx)("div",{style:{display:"flex",justifyContent:"center"},children:(0,i.jsx)("img",{src:"https://img.freepik.com/free-vector/glitch-error-404-page_23-2148105404.jpg?w=2000",alt:"not found",width:"500px"})})}}}]);
+//# sourceMappingURL=216.20ab7ec1.chunk.js.map
