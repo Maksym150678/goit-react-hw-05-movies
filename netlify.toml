@@ -1,0 +1,8 @@
+[build]
+publish = 'build'
+
+[[redirects]]
+from = '/*'
+to = '/ndex.html'
+status = 200
+
