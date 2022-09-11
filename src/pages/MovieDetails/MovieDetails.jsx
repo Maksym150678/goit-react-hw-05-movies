@@ -24,8 +24,8 @@ export default function MovieDetails() {
         type="button"
         style={{ padding: '5px' }}
         onClick={() => navigate(-1)} 
-      >
-        go Back 
+      >       	
+🠔 go Back 
       </button>
           <div style={{ display: 'flex', gap: '30px', margin: '30px 0' }}>
             <img
