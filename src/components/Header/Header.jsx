@@ -32,7 +32,7 @@ export const Header = () => {
       <StyledHeader>
         <nav>
           <NavLinkStyled to="/">Home</NavLinkStyled>
-          <NavLinkStyled to="/movies">movies</NavLinkStyled>
+          <NavLinkStyled to="/movies">Movies</NavLinkStyled>
         </nav>
       </StyledHeader>
     </>

@@ -6,3 +6,4 @@ export const StyledDiv = styled.div`
   width: 600px;
   gap: 10px;
 `;
+

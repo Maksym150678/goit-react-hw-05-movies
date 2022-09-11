@@ -1,13 +1,16 @@
 import { useState, useEffect } from 'react';
-import { useParams, Link, Outlet } from 'react-router-dom';
+import { useParams, Link, Outlet, useNavigate } from 'react-router-dom';
 import { fetchMovieForId } from 'cervices/api/api';
 
 import { StyledDiv } from './movieDetails.styled.js';
 
+
 export default function MovieDetails() {
   const[movie, setMovie] = useState(null);
-
+  
   const { movieId } = useParams();
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetchMovieForId(movieId).then(res => setMovie(res));
@@ -17,9 +20,13 @@ export default function MovieDetails() {
     <>
       {movie && (
         <main>
-          <Link to="/">
-            <span style={{ padding: '5px' }}>back</span>
-          </Link>
+        <button
+        type="button"
+        style={{ padding: '5px' }}
+        onClick={() => navigate(-1)} 
+      >
+        go Back 
+      </button>
           <div style={{ display: 'flex', gap: '30px', margin: '30px 0' }}>
             <img
               src={
@@ -51,8 +58,8 @@ export default function MovieDetails() {
               </ul>
               <div>
                 <h2>aditional information</h2>
-                <Link to={`cast`}>cast</Link>
-                <Link to={`reviews`}>reviews</Link>
+                <Link to={`cast`}>Cast</Link>
+                <Link to={`reviews`}>Reviews</Link>
               </div>
             </StyledDiv>
           </div>
